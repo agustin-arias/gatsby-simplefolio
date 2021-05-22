@@ -23,7 +23,8 @@ export const aboutData = {
   paragraphTwo:
     'I am passionate about technology and finding new creative ways to solve software engineering problems',
   paragraphThree: '',
-  resume: 'CV_english.pdf', // if no resume, the button will not show up
+  resume:
+    'https://www.udrop.com/5v92/CV_english.pdf?download_token=a9c3271afe04d142511e3a0524805cc844a4ee41d3a82f1ca6f55036e1302282', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
