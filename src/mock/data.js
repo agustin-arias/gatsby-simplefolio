@@ -18,27 +18,59 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
+  paragraphOne:
+    'I have been coding since 2018, always looking for new challenges by participating in coding competitions on Codeforces. And solving hard problems from pages such as Codewars, Project Euler, Advent of Code 2019.',
+  paragraphTwo:
+    'I am passionate about technology and finding new creative ways to solve software engineering problems',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'CV_english.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'DevConnector.png',
     title: 'DevConnector',
     info: 'A Social Media For Developers',
     info2:
       'This is a MERN stack application. It is a small social network app that includes authentication, profiles and forum posts.',
     url: 'https://dev-connect-anta.herokuapp.com/',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'random-quote-generator.jpg',
+    title: 'Random Quote Generator',
+    info: '',
+    info2:
+      'Random quote generator made with the help of React, together with Bootstrap, font-awesome and deployed to Netlify.',
+    url: 'https://random-quote-generator-anta.netlify.app/',
+    repo: 'https://github.com/agustin-arias/random-quote-generator', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'simple-md-previewer.png',
+    title: 'Simple Markdown Previewer',
+    info: '',
+    info2:
+      'Simple React Markdown Previewer made with the help of React,together with TypeScript, Bootstrap, font-awesome and some other npm packages.  This web application was deployed to Netlify.',
+    url: 'https://simple-react-md-previewer-anta.netlify.app/',
+    repo: 'https://github.com/agustin-arias/simple-react-md-preview', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'puzzle-nurikabe.png',
+    title: 'Nurikabe Solver',
+    info: '',
+    info2:
+      'Each puzzle consists of a grid containing clues in various places. The objective is to create islands by partitioning between clues with walls so that a number of rules are satisfied. This uses a backtracking algorithm to solve the problem.',
+    url: '',
+    repo: 'https://github.com/agustin-arias/nurikabe-solver', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'assembler-interpreter.png', // assembler-interpreter.gif',
     title: 'Assembler Interpreter',
     info: 'Program designed to interpret basic Assembler code.',
     info2:
@@ -46,61 +78,22 @@ export const projectsData = [
     url: '',
     repo: 'https://github.com/agustin-arias/assembler_interpreter', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: 'Simple Markdown Previewer',
-    info: '',
-    info2:
-      'Simple React Markdown Previewer made with the help of React,together with TypeScript, Bootstrap, font-awesome and someother npm packages.  This web application was deployed toNetlify.',
-    url: 'https://simple-react-md-previewer-anta.netlify.app/',
-    repo: 'https://github.com/agustin-arias/simple-react-md-preview', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: 'Random Quote Generator',
-    info: '',
-    info2:
-      'Random quote generator made with the help of React, togetherwith Bootstrap, font-awesome and deployed to Netlify.',
-    url: 'https://random-quote-generator-anta.netlify.app/',
-    repo: 'https://github.com/agustin-arias/random-quote-generator', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: 'Nurikabe Solver',
-    info: '',
-    info2:
-      'Each puzzle consists of a grid containing clues in various places.The objective is to create islands by partitioning between clueswith walls so that a number of rules are satisfied. This uses abacktracking algorithmto solve the problem.',
-    url: '',
-    repo: 'https://github.com/agustin-arias/nurikabe-solver', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'project.jpg',
+  //   title: '',
+  //   info: '',
+  //   info2: '',
+  //   url: '',
+  //   repo: '', // if no repo, the button will not show up
+  // },
 ];
 
 // CONTACT DATA
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'agustinntarias@gmail.com',
 };
 
 // FOOTER DATA
@@ -127,9 +120,4 @@ export const footerData = {
       url: 'https://github.com/agustin-arias',
     },
   ],
-};
-
-// Github start/fork buttons
-export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
 };
