@@ -141,7 +141,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: 'https://www.linkedin.com/in/agustinarias-fullstack/',
+      url: 'https://www.linkedin.com/in/agustinntarias',
     },
     {
       id: nanoid(),
