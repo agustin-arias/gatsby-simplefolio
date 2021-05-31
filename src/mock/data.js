@@ -24,7 +24,7 @@ export const aboutData = {
   paragraphTwo:
     'I am passionate about technology and finding new creative ways to solve software engineering problems',
   paragraphThree: '',
-  resume: 'https://raw.githubusercontent.com/agustin-arias/Resume/main/resume.pdf', // if no resume, the button will not show up
+  resume: 'https://raw.githubusercontent.com/agustin-arias/Resume/main/agustin_arias_resume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
