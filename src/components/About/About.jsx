@@ -3,11 +3,13 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import PortfolioContext from '../../context/context';
 import AboutImg from '../Image/AboutImg';
+import SocialLinks from '../SocialLinks/SocialLinks';
 import Title from '../Title/Title';
 
 const About = () => {
-  const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const {
+    about: { img, paragraphOne, paragraphTwo, paragraphThree, resume },
+  } = useContext(PortfolioContext);
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -41,7 +43,7 @@ const About = () => {
                 <p className="about-wrapper__info-text">{paragraphTwo}</p>
                 <p className="about-wrapper__info-text">{paragraphThree}</p>
                 {resume && (
-                  <span className="d-flex mt-3">
+                  <span className="d-flex mt-3 justify-content-sm-center">
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
@@ -53,6 +55,7 @@ const About = () => {
                     </a>
                   </span>
                 )}
+                <SocialLinks />
               </div>
             </Fade>
           </Col>
