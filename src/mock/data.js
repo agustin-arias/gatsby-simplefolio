@@ -107,15 +107,15 @@ export const projectsData = [
     url: '',
     repo: 'https://github.com/agustin-arias/nurikabe-solver', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/agustin-arias/prime-circles', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'project.jpg',
+  //   title: '',
+  //   info: '',
+  //   info2: '',
+  //   url: '',
+  //   repo: 'https://github.com/agustin-arias/prime-circles', // if no repo, the button will not show up
+  // },
 ];
 
 // CONTACT DATA
@@ -135,8 +135,8 @@ export const footerData = {
     },
     {
       id: nanoid(),
-      name: 'codepen',
-      url: '',
+      name: 'envelope', // email
+      url: `mailto:${contactData.email}`,
     },
     {
       id: nanoid(),
