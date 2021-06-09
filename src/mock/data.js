@@ -19,8 +19,14 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne:
-    'I have been coding since 2018, always looking for new challenges by participating in coding competitions on Codeforces. And solving hard problems from pages such as Codewars, Project Euler, Advent of Code 2019.',
+  paragraphOne: `Sup! 👋🏻 I'm Agustin, studying Computer Science and Mathematics @ UBA.
+
+    I have an enormous amount of curiosity which fuels my drive to learn new technologies and concepts.
+    
+    I am a fanatic for software💻 and finances 📈, and always try to find new innovative ways to solve problems both in software engineering and personal finances.
+    
+    I love working in the IT industry due to its fast pace and flexibility.
+    `,
   paragraphTwo:
     'I am passionate about technology and finding new creative ways to solve software engineering problems',
   paragraphThree: '',
