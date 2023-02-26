@@ -42,7 +42,7 @@ export const projectsData = [
     info: 'A Social Media For Developers',
     info2:
       'This is a MERN (MongoDB, Express, React & Node) stack application. It is a small social network app that includes authentication, profiles and forum posts.',
-    url: 'https://dev-connect-anta.herokuapp.com/',
+    url: 'https://dev-connector-anta.netlify.app/',
     repo: '', // if no repo, the button will not show up
   },
   {
