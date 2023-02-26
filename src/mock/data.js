@@ -47,6 +47,26 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'random-quote-generator.jpg',
+    title: 'Random Quote Generator',
+    info: '',
+    info2:
+      'Random quote generator made with the help of React, together with Bootstrap, font-awesome and deployed to Netlify.',
+    url: 'https://random-quote-generator-anta.netlify.app/',
+    repo: 'https://github.com/agustin-arias/random-quote-generator', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'simple-md-previewer.png',
+    title: 'Simple Markdown Previewer',
+    info: '',
+    info2:
+      'Simple React Markdown Previewer made with the help of React,together with TypeScript, Bootstrap, font-awesome and some other npm packages.  This web application was deployed to Netlify.',
+    url: 'https://simple-react-md-previewer-anta.netlify.app/',
+    repo: 'https://github.com/agustin-arias/simple-react-md-preview', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'dotfiles.png',
     title: 'Dotfiles Configuration',
     info: 'My Dotfiles Configuration Files',
@@ -67,16 +87,6 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'random-quote-generator.jpg',
-    title: 'Random Quote Generator',
-    info: '',
-    info2:
-      'Random quote generator made with the help of React, together with Bootstrap, font-awesome and deployed to Netlify.',
-    url: 'https://random-quote-generator-anta.netlify.app/',
-    repo: 'https://github.com/agustin-arias/random-quote-generator', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
     img: 'change_background.png',
     title: 'Random Background Changer',
     info: '',
@@ -92,16 +102,6 @@ export const projectsData = [
     ),
     url: 'https://raw.githubusercontent.com/agustin-arias/change-background/main/demonstration.gif',
     repo: 'https://github.com/agustin-arias/change-background', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'simple-md-previewer.png',
-    title: 'Simple Markdown Previewer',
-    info: '',
-    info2:
-      'Simple React Markdown Previewer made with the help of React,together with TypeScript, Bootstrap, font-awesome and some other npm packages.  This web application was deployed to Netlify.',
-    url: 'https://simple-react-md-previewer-anta.netlify.app/',
-    repo: 'https://github.com/agustin-arias/simple-react-md-preview', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
